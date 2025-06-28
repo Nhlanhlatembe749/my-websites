@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<HTML>
+    <head>
+        <title>box</title>
+        <style>
+
+            body {
+                background-color: #f0f0f0;
+                font-family: Arial, sans-serif;
+                color: #333;
+            }
+            header {
+                background-color: #4CAF50;
+                color: white;
+                padding: 10px 0;
+                text-align: center;
+            }
+            h1 {
+                margin: 0;
+            }
+            .container {
+                width: 60%;
+                margin: auto;
+                margin-top: 6%;
+                padding: 20px;
+                background-color: rgb(215, 173, 173);
+                box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+                height: 40%;
+                margin-top: 10%;
+            }
+            .container:hover{
+                background-color: rgb(255, 255, 255);
+            }
+            header:hover {
+                background-color: #d71066;
+            }
+            body:hover {
+                background-color: #72752a;
+            }
+            .box {
+                width: 15%;
+                height: 30%;
+                background-color: #947373;
+                border-radius: 10px;
+                padding: 20px;
+                box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+                position: fixed;
+                margin: auto;
+            }
+            .box:hover {
+                background-color: #b705d3;
+                height: 40%;
+                width: 20%;
+            }
+            #button:hover {
+                background-color: #03ef36;
+                height: 15%;
+                width: 10%;
+
+                
+            }
+            fieldset:hover{background-color: antiquewhite;
+                          
+            }
+            #button {
+                background-color: #d71066;
+            }
+            #mainp{
+                 
+                 
+                 position :fixed;
+
+            }
+            #mainp:hover{
+                
+                      height: 90px;
+                      width: 90px;
+            }         
+            
+        </style>
+    </head>
+    <header>
+       <h1 style="text-align: center;">Sponsor Commitment Form </h1>
+    
+    </header>
+    <body>
+        <a href="index.html">
+        <img src="exit.png" id="mainp" alt="mainp" alt="Exit" height="80px" width="80px">
+        </a>
+    
+        <h3 style="text-align: center;">This form or sponsor letter of Commitment (an affidavit) is required of all students who are </br>
+        financially sponsored by another individual. The sponsor letter of commitment must include the </br>
+        following information on this form if you have more  than one sponsor , each sponsor must fill out</br>
+        form or submit an individual sponsor letter of commitment.</h3>
+
+     <div class="box">
+            <h3><u>Administrator details</u></h3>
+            <p> Name: Nhlanhla Tembe</p>
+            <p> Email: <a href="mailto:nhlanhlatembe749@gmail.com">nhlanhlatembe749@gmail.com</a>
+            <p> Phone: <a href="tel:+1234567890">072 834 1184</a></p>
+            <p>whatsapp :<a href="https://wa.me//0728341184">whatsapp me</a></p>
+
+     </div>
+
+        <div class="container">
+            
+            <form>
+                <fieldset id="f1">
+                    <legend>Sponsor Details</legend>
+                <label for="sponsorName">Sponsor Name:</label><br>
+                <input type="text" id="sponsorName"placeholder="miss magret" name="sponsorName" required><br><br>
+
+                <label for="sponsorAddress">Sponsor Address:</label><br>
+                <input type="text" id="sponsorAddress" placeholder="crown 8" name="sponsorAddress" required><br><br>
+
+                <label for="sponsorPhone">Sponsor Phone Number:</label><br>
+                <input type="tel" id="sponsorPhone" name="sponsorPhone"placeholder="072 834 1184" required><br><br>
+
+                <label for="sponsorEmail">Sponsor Email:</label><br>
+                <input type="email" id="sponsorEmail" name="sponsorEmail" placeholder="magret76@gmail.com" required><br><br>
+
+                </fieldset>
+            </br>
+                <fieldset>
+                    <legend>Student Details</legend>
+                <label for="studentName">Student Name:</label><br>
+                <input type="text" id="studentName" placeholder="alex" studentName" required><br><br>
+                <label for="studentID">Student ID:</label><br>
+                <input type="text"onclick="st()" placeholder="234765679" id="student" studentID" name="studentID" required><br><br>
+                <label for="studentProgram">Student Program:</label><br>
+                <input type="text" id="studentProgram" placeholder="Information tech" required><br><br>
+                <label for="studentEmail">Student Email:</label><br>
+                <input type="email" id="studentEmail"placeholder="sbo345@gmail" name="studentEmail" required><br><br>
+                </fieldset>
+            </br>
+                <fieldset>
+                    <legend>Financial Commitment</legend>
+                <label for="commitmentAmount">Financial Commitment Amount:</label><br>
+                <input type="number" id="commitmentAmount" name="commitmentAmount" required><br><br>
+                <label for="commitmentDuration">Commitment Duration (in months):</label><br>
+                <input type="number" id="commitmentDuration" name="commitmentDuration" required><br><br>
+                <label for="commitmentStartDate">Commitment Start Date:</label><br>
+                <input type="date" id="commitmentStartDate" name="commitmentStartDate" required><br><br>
+                <label for="commitmentEndDate">Commitment End Date:</label><br>
+                <input type="date" id="commitmentEndDate" name="commitmentEndDate" required><br><br>
+
+                <button  id="button" onclick="com()">Register</button>
+
+            </form>
+        
+
+        </div>
+
+            
+
+
+
+    </body>
+
+
+
+
+ <script src="propeties.js"></script>
+
+
+<footer><p style="text-align: left;">&copy; 2025 Your Organization. All rights reserved.  <p> Email: <a href="mailto:nhlanhlatembe749@gmail.com">nhlanhlatembe749@gmail.com</a></p> </footer>
+
+
+
+
+
+</HTML>
