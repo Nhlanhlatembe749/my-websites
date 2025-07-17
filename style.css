@@ -27,19 +27,19 @@ button{
     
 }
 .box6{
-      height:400px;
-      width:1500px;
+      height:max-height 60%px;
+      width:60%px;
       border:10% solid;
       background-color: aqua;
 
 }
 .box4{
-    height:400px;
-    width:1500px
+    height:max-height 60%px;
+    width:60%px
 }
 .box2{
-    width:1500px;
-    height:50px;
+    width:60%;
+    height:60%;
     background-color: rgb(204, 119, 7);
     align-content: center;
     text-align: center;
